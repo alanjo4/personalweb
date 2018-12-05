@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#logo{
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#wo{
+    color: #1b1b1b;
+}
+
+#vut{
+    color: #e7d213;
+}
+
+.encabezado{
+    background: #fffffbdc;
+    padding: .5rem 0;
+}
+
+.encabezado .container-fluid{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn-menu{
+    border: 0;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0 .8rem;
+    background: transparent;
+    color: #1d1d1ddc;
+    margin-left: auto;
+}
+
+.btn-menu:focus{
+    outline: 0;
+}
+
+#menu-principal{
+    flex: 1 1 199%;
+}
+
+#menu-principal ul{
+    padding: 0;
+    list-style: none;
+    margin: 1rem 0 0 ;
+}
+
+#menu-principal ul a{
+    display: block;
+    padding: .4rem 0;
+    text-align: center;
+    color: #1d1d1ddc;
+    text-transform: uppercase;
+    border-bottom: 1px solid #4d4d4d;
+    text-decoration: none;
+}
+
+#menu-principal ul li a{
+    transition: all .2s linear;
+}
+
+#menu-principal ul li a:hover, #menu-principal ul li a.active{
+    opacity: .8;
+    color: #ca9d08;
+}
+
+.introduccion{
+    background: #f7ca01;
+    display: flex;
+    position: relative;
+    padding: 5rem 0;
+    overflow: hidden;
+    height: 100vh;
+    align-items: center;
+}
+/*
+.introduccion .container i{
+    font-size: 5rem;
+    color: #000000;
+    transform: rotate(115deg);
+    position: absolute;
+    margin-right: auto;
+    top: -15%;
+    left: 12%;
+    animation: 1.5s colgado 1;
+    transform-origin: bottom left;
+}
+
+@keyframes colgado{
+    20%{
+        transform: rotate(180deg);
+    }
+    40%{
+        transform: rotate(100deg);
+    }
+    60%{
+        transform: rotate(160deg);
+    }
+    80%{
+        transform: rotate(110deg);
+    }
+}
+*/
+#do{
+    background: #1e5799;
+    background: -moz-radial-gradient(center, ellipse cover, #1e5799 0%, #262626 0%, #111111 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #1e5799 0%,#262626 0%,#111111 100%);
+    background: radial-gradient(ellipse at center, #1e5799 0%,#262626 0%,#111111 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#111111',GradientType=1 );
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
