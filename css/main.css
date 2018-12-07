@@ -128,12 +128,32 @@ body{
 
 .whatWeDo__contenedor{
     border-radius: .6rem;
-    padding: 2rem;
+    padding: 2rem 0;
     margin: 3rem 0;
 }
 
 .whatWeDo__contenedor--color1{
     background: #bea224;
+}
+
+.whatWeDo__contenedor--color2{
+    background: #2480be;
+}
+
+.whatWeDo__contenedor--color3{
+    background: #3ebe24;
+}
+
+.whatWeDo__contenedor--color4{
+    background: #24bea9;
+}
+
+.whatWeDo__contenedor--color5{
+    background: #be2424;
+}
+
+.whatWeDo__contenedor--color6{
+    background: #b124be;
 }
 
 .whatWeDo__contenedor i{
