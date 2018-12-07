@@ -29,7 +29,7 @@ body{
     flex-wrap: wrap;
 }
 
-.btn-menu{
+.encabezado__btn-menu{
     border: 0;
     font-size: 2rem;
     margin: 0;
@@ -39,21 +39,21 @@ body{
     margin-left: auto;
 }
 
-.btn-menu:focus{
+.encabezado__btn-menu:focus{
     outline: 0;
 }
 
-#menu-principal{
+.encabezado__menu-principal{
     flex: 1 1 199%;
 }
 
-#menu-principal ul{
+.encabezado__menu-principal ul{
     padding: 0;
     list-style: none;
     margin: 1rem 0 0 ;
 }
 
-#menu-principal ul a{
+.encabezado__menu-principal ul a{
     display: block;
     padding: .4rem 0;
     text-align: center;
@@ -63,16 +63,16 @@ body{
     text-decoration: none;
 }
 
-#menu-principal ul li a{
+.encabezado__menu-principal ul li a{
     transition: all .2s linear;
 }
 
-#menu-principal ul li a:hover, #menu-principal ul li a.active{
+.encabezado__menu-principal ul li a:hover, #menu-principal ul li a.active{
     opacity: .8;
     color: #ca9d08;
 }
 
-.introduccion{
+.home{
     background: #f7ca01;
     display: flex;
     position: relative;
@@ -109,15 +109,41 @@ body{
     }
 }
 */
-#do{
+.whatWeDo{
     background: #1e5799;
     background: -moz-radial-gradient(center, ellipse cover, #1e5799 0%, #262626 0%, #111111 100%);
     background: -webkit-radial-gradient(center, ellipse cover, #1e5799 0%,#262626 0%,#111111 100%);
     background: radial-gradient(ellipse at center, #1e5799 0%,#262626 0%,#111111 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#111111',GradientType=1 );
     color: white;
-    height: 100vh;
     display: flex;
     align-items: center;
     text-align: center;
+    padding: 1rem;
+}
+
+.whatWeDo__titulo{
+    margin-top: 3rem;
+}
+
+.whatWeDo__contenedor{
+    border-radius: .6rem;
+    padding: 2rem;
+    margin: 3rem 0;
+}
+
+.whatWeDo__contenedor--color1{
+    background: #bea224;
+}
+
+.whatWeDo__contenedor i{
+    font-size: 7rem;
+}
+
+.whatWeDo__contenedor h4{
+    font-size: 3rem;
+}
+
+.whatWeDo__contenedor__texto--padding{
+    padding: 1rem;
 }
